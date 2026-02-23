@@ -7,12 +7,16 @@ header {
     list-style-type: none;
     background-color: #e7490b;
     text-align: center;
-    width: 15%;
+    width: 25%;
     min-width: 100px;
     max-width: 200px;
     line-height: 2.5rem;
     border-radius: 20px;
-    margin: 20px
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #main-nav li:hover {
@@ -29,6 +33,18 @@ body {
     font-family: Arial, sans-serif, sans-serif;
     font-weight: 1em;
     line-height: 1.5em;
+    margin: 0px;
+}
+
+main {
+    float: left;
+    width: 74.5%;
+}
+
+aside {
+    float: right;
+    width: 24.5%;
+    text-align: left;
 }
 
 h1 {
@@ -44,12 +60,25 @@ a {
     color: rgb(225, 75, 16);
 }
 
+ul {
+    padding-left: 0px;
+}
+
+.most-popular-list {
+    list-style-type: none;
+    margin-left: -1em;
+}
+
+.most-popular-list li {
+    text-align: left;
+}
+
 #page-title {
     display: inline-block;
     font-family: Georgia, serif;
     font-size: 2.5rem;
     line-height: 2rem;
-    width: 29.5%;
+    width: 69.5%;
 }
 
 #page-title a {
@@ -60,7 +89,7 @@ a {
     display: inline-block;
     text-align: right;
     font-size: 1rem;
-    width: 69.5%;
+    width: 29.5%;
 }
 
 #content-area {
