@@ -97,3 +97,13 @@ ul {
     margin-left: 4em;
     margin-right: 4em;
 }
+
+#news-panel .story-preview {
+    display: block;
+}
+
+footer {
+    display: inline;
+    background-color: blueviolet;
+    color: white;
+}
